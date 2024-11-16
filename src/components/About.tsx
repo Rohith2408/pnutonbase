@@ -12,7 +12,7 @@ const About=()=>{
                 <div className={styles.body_wrapper}>
                     <p className={styles.title}>Where Crypto Meets Comedy!</p>
                     <p className={styles.text}>
-                    Dintlo is a trending meme coin known for its playful branding and community-driven growth. It’s quickly gaining popularity through social media buzz and humor, making it a high-risk, high-reward option for adventurous investors.
+                    $PNUt is a trending meme coin known for its playful branding and community-driven growth. It’s quickly gaining popularity through social media buzz and humor, making it a high-risk, high-reward option for adventurous investors.
                     </p>
                 </div>
             </div>
