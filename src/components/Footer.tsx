@@ -40,7 +40,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className={[styles.line, className].join(" ")}></div>
         <div className={[styles.body, className].join(" ")}>
           <div className={[styles.description2wrapper, className].join(" ")}>
-            <div className={[styles.buymarv, className].join(" ")}>Buy Pnutonbase</div>
+            <div className={[styles.buymarv, className].join(" ")}>Buy $PNUT</div>
             <div className={[styles.contractaddwrapper, className].join(" ")}>
               <p className={[styles.contractadd, className].join(" ")}>Contract address: {contractAddress}</p>
               <button onClick={()=>{alert("Contract Address Copied");navigator.clipboard.writeText(contractAddress)}} className={[styles.copyiconwrapper, className].join(" ")}>
