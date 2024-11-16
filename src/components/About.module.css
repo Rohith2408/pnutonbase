@@ -44,7 +44,7 @@
     color: #ffecd3;
     font-family: "comictoon";
     margin: 0;
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 5px black;
   }
 
   .text{
@@ -97,6 +97,7 @@
 
     .title{
         font-size:44px;
+        -webkit-text-stroke:2px black;
     }
 
     .text{
@@ -147,6 +148,7 @@
 
     .title{
         font-size: 56px;
+        -webkit-text-stroke:3px black;
     }
 
     .text{
@@ -241,6 +243,7 @@
 
     .title{
         font-size: 100px;
+        text-align: start;
     }
 
     .text{

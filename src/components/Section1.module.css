@@ -157,6 +157,7 @@
 
     .title{
         font-size:70px;
+        -webkit-text-stroke: 3px black;
     }
 
     .penguin{
@@ -221,6 +222,7 @@
 
     .title{
         font-size:110px;
+        -webkit-text-stroke: 3px black;
     }
 
     .penguin{
