@@ -19,7 +19,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
     {title:"Telegram",url:""},
     {title:"Instagram",url:""}
   ]).current
-  const contractAddress=useRef("TBA").current
+  const contractAddress=useRef("0x33A3Db507c8D087e069d81B5119eC570c689a66c").current
 
   const onHomeButtonClick = useCallback(() => {
     document.getElementById('header')?.scrollIntoView({ behavior: 'smooth' });

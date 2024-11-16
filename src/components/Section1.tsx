@@ -24,7 +24,7 @@ const Section1=()=>{
     ]).current
     const [currentbg,setCurrentBg]=useState(0)
     const interval=useRef<any>()
-    const ca=useRef("TBA").current
+    const ca=useRef("0x33A3Db507c8D087e069d81B5119eC570c689a66c").current
 
     useEffect(()=>{
 

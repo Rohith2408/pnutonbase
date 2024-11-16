@@ -61,7 +61,10 @@
     margin: 0;
     color: black;
     font-family:"comicjungleextrude";
-    
+  }
+
+  .ca{
+    font-family:"Patrick Hand";
   }
 
   .cawrapper{
