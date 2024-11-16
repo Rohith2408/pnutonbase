@@ -35,7 +35,7 @@ const Section1=()=>{
             <div className={styles.subwrapper}>
                 <div className={styles.body}>
                     {/* <img className={styles.banner} src={banner}/> */}
-                    <p className={styles.title}>$Pneutonbase</p>
+                    <p className={styles.title}>$Pnutonbase</p>
                     <div className={styles.socialWrapper}>
                     {
                         socialIcons.map((icon) => (
