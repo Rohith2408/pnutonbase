@@ -8,7 +8,7 @@
     background-repeat:no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("../images/Section1/bg.png"); 
+    background-image: url("../images/memes/bg.png"); 
     /* overflow: hidden; */
 }
   
@@ -89,7 +89,7 @@
     .mainwrapper{
         max-height:1350px;
         min-height:1300px;
-        background-image: url("../images/Section1/bg.png");
+        background-image: url("../images/memes/bg.png"); 
     }
 
     .body{
@@ -128,7 +128,7 @@
     .mainwrapper{
         max-height:650px;
         min-height:600px;
-        background-image: url("../images/Section1/bg.png");
+        background-image: url("../images/memes/bg.png"); 
     }
 
     .body{
@@ -163,7 +163,7 @@
     .mainwrapper{
       max-height: 1080px;
       min-height: 1000px;
-      background-image: url("../images/Section1/bg.png");
+      background-image: url("../images/memes/bg.png"); 
     }
 
     .body{
@@ -197,7 +197,7 @@
     .mainwrapper{
         max-height: 1200px;
         min-height: 1250px;
-        background-image: url("../images/Section1/bg.png");    
+        background-image: url("../images/memes/bg.png");    
       }
 
     .subwrapper{

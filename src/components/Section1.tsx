@@ -11,6 +11,7 @@ import copy_icon from '../images/Section1/copy.png'
 import image from '../images/Section1/image.png'
 import banner from '../images/banner.gif'
 import insta_icon from '../images/Section1/instagram.png'
+import whitehouse_image from '../images/Section1/whitehouse.png'
 
 const Section1=()=>{
 
@@ -56,6 +57,7 @@ const Section1=()=>{
                     </div>
                 </div>
                 <img className={styles.penguin}/>
+                <img src={whitehouse_image} className={styles.whitehouse}/>
             </div>
         </section>
     )

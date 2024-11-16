@@ -10,6 +10,7 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    background-color: #ffecd3;
 }
   
   .subwrapper{
@@ -94,6 +95,15 @@
     animation: bunny 2s infinite;
   }
 
+  .whitehouse{
+    position: absolute;
+    bottom: 0;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
   .copyWrapper{
     margin: 0;
     background-color: transparent;
@@ -167,6 +177,11 @@
         object-fit: contain;
     }
 
+    .whitehouse{
+        width:500px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:501px) and (max-width:1023px) {
@@ -229,6 +244,11 @@
         content: url('../images/Section1/gif-3.gif');
         /* top:0%; */
         height:450px;
+        object-fit: contain;
+    }
+
+    .whitehouse{
+        width: 800px;
         object-fit: contain;
     }
   }
@@ -295,6 +315,11 @@
         object-fit: contain;
     }
 
+    .whitehouse{
+        width: 1500px;
+        object-fit: contain;
+    }
+
   }
 
   @media screen and (min-width:1921px){
@@ -356,6 +381,11 @@
         content: url('../images/Section1/gif-3.gif');
         /* top:-10%; */
         height:600px;
+        object-fit: contain;
+    }
+
+    .whitehouse{
+        width: 2000px;
         object-fit: contain;
     }
 
