@@ -40,6 +40,11 @@
     justify-content: center;
   }
 
+  .image{
+    transition: transform 0.1s;
+    /* animation: bunny 2s infinite; */
+  }
+
   .title{
     color: #ffecd3;
     font-family: "comictoon";
@@ -258,5 +263,20 @@
         top: -55px;
     }
 
+  }
+
+  @keyframes bunny {
+    0%{
+        transform: translateX(-150%);
+    }
+    30%{
+        transform: translateX(0%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-150%);
+    }
   }
 
