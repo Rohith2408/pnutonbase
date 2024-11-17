@@ -20,6 +20,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
     {title:"Instagram",url:""}
   ]).current
   const contractAddress=useRef("0x33A3Db507c8D087e069d81B5119eC570c689a66c").current
+  const buyLink=useRef("https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0x33a3db507c8d087e069d81b5119ec570c689a66c&value=1&field=input").current
 
   const onHomeButtonClick = useCallback(() => {
     document.getElementById('header')?.scrollIntoView({ behavior: 'smooth' });
@@ -40,7 +41,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className={[styles.line, className].join(" ")}></div>
         <div className={[styles.body, className].join(" ")}>
           <div className={[styles.description2wrapper, className].join(" ")}>
-            <div className={[styles.buymarv, className].join(" ")}>Buy $PNUT</div>
+            <div className={[styles.buymarv, className].join(" ")}><a href={buyLink} target="_blank">Buy $PNUT</a></div>
             <div className={[styles.contractaddwrapper, className].join(" ")}>
               <p className={[styles.contractadd, className].join(" ")}>CA: {contractAddress}</p>
               <button onClick={()=>{alert("Contract Address Copied");navigator.clipboard.writeText(contractAddress)}} className={[styles.copyiconwrapper, className].join(" ")}>
