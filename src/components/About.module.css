@@ -41,7 +41,7 @@
   }
 
   .image{
-    transition: transform 0.1s;
+    transition: transform 0.15s;
     /* animation: bunny 2s infinite; */
   }
 
