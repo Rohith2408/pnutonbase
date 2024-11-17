@@ -15,10 +15,10 @@ import whitehouse_image from '../images/Section1/whitehouse.png'
 const Section1=()=>{
 
     const socialIcons= useRef([
-        { src: telegram_icon, link: "" },
-        { src: twitter_icon, link: "" },
-        { src:dex_icon, link: "" },
-        { src: dextools_icon, link: "" },
+        { src: telegram_icon, link: "https://t.me/PnutOnBase" },
+        { src: twitter_icon, link: "https://x.com/PeanutOnBase" },
+        { src:dex_icon, link: "https://dexscreener.com/base/0x430Bd97e6d8e6ee66aB170508006F6a297FA209C" },
+        { src: dextools_icon, link: "https://www.dextools.io/app/en/base/pair-explorer/0x430bd97e6d8e6ee66ab170508006f6a297fa209c?t=1731850388592" },
         // { src:coingecko_icon, link: "" },
         // { src:insta_icon, link: "" }
     ]).current
