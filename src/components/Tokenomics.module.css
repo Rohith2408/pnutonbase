@@ -115,8 +115,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height:1350px;
-        min-height:1300px;
+        max-height:1450px;
+        min-height:1400px;
         background-image: url("../images/memes/bg.png"); 
     }
 
@@ -136,7 +136,7 @@
 
     .imagewrapper{
         width:250px;
-        height:250px 
+        height:300px 
     }
     
     .image{
@@ -165,8 +165,8 @@
   @media screen and (min-width:501px) and (max-width:1023px) {
 
     .mainwrapper{
-        max-height:650px;
-        min-height:600px;
+        max-height:750px;
+        min-height:700px;
         background-image: url("../images/memes/bg.png"); 
     }
 
@@ -183,7 +183,7 @@
 
     .imagewrapper{
         width:200px;
-        height:200px;
+        height:250px;
     }
     
     .image{
@@ -292,7 +292,6 @@
     }
     
     .image{
-        /* width:420px; */
         border-width: 10px;
     }  
 
