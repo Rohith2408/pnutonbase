@@ -115,8 +115,8 @@
   @media screen and (max-width:500px) {
 
     .mainwrapper{
-        max-height:1450px;
-        min-height:1400px;
+        max-height:1550px;
+        min-height:1500px;
         background-image: url("../images/memes/bg.png"); 
     }
 
