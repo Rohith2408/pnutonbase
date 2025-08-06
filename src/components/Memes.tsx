@@ -1,11 +1,11 @@
 import styles from "./Memes.module.css";
 import { useEffect, useRef, useState } from "react";
 import bg from '../images/Section1/bg.png'
-import image1 from '../images/memes/1.jpeg'
-import image2 from '../images/memes/2.jpeg'
-import image3 from '../images/memes/3.jpeg'
-import image4 from '../images/memes/4.jpeg'
-import image5 from '../images/memes/5.jpeg'
+import image1 from '../images/memes/1.jpg'
+import image2 from '../images/memes/2.jpg'
+import image3 from '../images/memes/3.jpg'
+import image4 from '../images/memes/4.jpg'
+import image5 from '../images/memes/5.jpg'
 import banner from '../images/banner.gif'
 
 const Memes=()=>{
@@ -17,7 +17,7 @@ const Memes=()=>{
         <section className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
                 <div className={styles.body}>
-                    <img className={styles.banner} src={banner}/>
+                    {/* <img className={styles.banner} src={banner}/> */}
                     <p className={styles.title}>Memes</p>
                     <div className={styles.imageswrapper}>
                     {

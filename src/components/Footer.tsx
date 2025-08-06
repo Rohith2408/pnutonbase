@@ -19,8 +19,8 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
     {title:"Telegram",url:""},
     {title:"Instagram",url:""}
   ]).current
-  const contractAddress=useRef("0x33A3Db507c8D087e069d81B5119eC570c689a66c").current
-  const buyLink=useRef("https://app.uniswap.org/swap?chain=base&inputCurrency=NATIVE&outputCurrency=0x33a3db507c8d087e069d81b5119ec570c689a66c&value=1&field=input").current
+  const contractAddress=useRef("TBA").current
+  const buyLink=useRef("").current
 
   const onHomeButtonClick = useCallback(() => {
     document.getElementById('header')?.scrollIntoView({ behavior: 'smooth' });
@@ -41,7 +41,7 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
         <div className={[styles.line, className].join(" ")}></div>
         <div className={[styles.body, className].join(" ")}>
           <div className={[styles.description2wrapper, className].join(" ")}>
-            <div className={[styles.buymarv, className].join(" ")}><a href={buyLink} target="_blank">Buy $PNUT</a></div>
+            <div className={[styles.buymarv, className].join(" ")}><a href={buyLink} target="_blank">Buy $inuPUTIN</a></div>
             <div className={[styles.contractaddwrapper, className].join(" ")}>
               <p className={[styles.contractadd, className].join(" ")}>CA: {contractAddress}</p>
               <button onClick={()=>{alert("Contract Address Copied");navigator.clipboard.writeText(contractAddress)}} className={[styles.copyiconwrapper, className].join(" ")}>
@@ -50,55 +50,6 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             </div>
           </div>
           <div className={[styles.description3wrapper, className].join(" ")}>
-            {/* <div style={{width:"33%",gap:"3%",display:"flex",flexDirection:"column"}}>
-              <div className={[styles.marvtext, className].join(" ")}>MARV</div>
-              <div className={[styles.jointext, className].join(" ")}>Join Marv at Marv Army</div>
-              <div style={{ display: "flex", flexDirection: "row", gap: "5%" }}>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img
-                  className={[styles.socialicons, className].join(" ")}
-                  loading="lazy"
-                  alt="Twitter"
-                  src={twitter_icon}
-                />
-              </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img
-                  className={[styles.socialicons, className].join(" ")}
-                  loading="lazy"
-                  alt="Telegram"
-                  src={telegram_icon}
-                />
-              </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img
-                  className={[styles.socialicons, className].join(" ")}
-                  loading="lazy"
-                  alt="Dex"
-                  src={dex_icon}
-                />
-              </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
-                <img
-                  className={[styles.socialicons, className].join(" ")}
-                  loading="lazy"
-                  alt="Dex"
-                  src={dextools_icon}
-                />
-              </a>
-            </div>
-            </div> */}
-            {/* <div style={{width:"33%",display:"flex",flexDirection:"column",justifyContent:'start'}}>
-              <div className={[styles.gopolatitle, className].join(" ")}>Go Marv!</div>
-              <div className={[styles.gopolalist, className].join(" ")}>
-                <div>Join Marvarmy</div>
-                {
-                  social.map((item)=>
-                  <div><a onClick={()=>window.open(item.url)}>{item.title}</a></div>
-                  )
-                }
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

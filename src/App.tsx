@@ -13,7 +13,7 @@ function App() {
       <div ><Section1/></div>
       {/* <img className={styles.banner} src={banner}/> */}
       <div><About/></div>
-      <div><Tokenomics/></div>
+      {/* <div><Tokenomics/></div> */}
       <div><Memes/></div>
       <div><Footer/></div>
     </div>

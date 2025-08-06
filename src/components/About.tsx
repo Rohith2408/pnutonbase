@@ -51,7 +51,7 @@ const About=()=>{
     return(
         <section ref={elementRef} className={styles.mainwrapper} id="section2" data-scroll-to="section2">
             <div className={styles.subwrapper}>
-                <img className={styles.banner} src={banner}/>
+                {/* <img className={styles.banner} src={banner}/> */}
                 <div className={styles.image_wrapper}><img src={image} className={styles.image} style={{transform:"translateX(-"+scale.current+"%)"}}/></div>
                 <div className={styles.body_wrapper}>
                     <p className={styles.title}>Where Crypto Meets Comedy!</p>

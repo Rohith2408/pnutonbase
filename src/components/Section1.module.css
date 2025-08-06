@@ -95,7 +95,7 @@
   .penguin{
     position: absolute;
     bottom: 0;
-    animation: bunny 2s infinite;
+    /* animation: bunny 2s infinite; */
   }
 
   .whitehouse{
